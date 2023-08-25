@@ -1,0 +1,56 @@
+---
+output: pdf_document
+---
+
+## Author
+
+ - **Name:** Sam Burch
+ - **Email (Main):** sburch323@gmail.com
+ - **Email (School):** sgburch2@illinois.edu
+ 
+ 
+## Version
+
+This is version 1.0. More updates, including improved speed and new features, will be live in the future!
+ 
+ 
+## Purpose
+
+This tool is aiming to help fans learn more about their favorite pitchers and hitters, and how they perform relative to the strike zone. Using this app, one can see Bryce Harper's performance against sliders, Clayton Kershaw's most effective pitch, Aaron Judge's xHR rate by zone, etc. All kinds of insights can be taken away by playing around with this tool, and the limits of that are up to the user!
+
+
+## Data & Constraints
+
+This app uses statcast data from 2017-2022 (excluding 2020).
+For the pitch distribution, I defined the strike zone dimensions as the width of the plate (17 inches) and the height as defined by the mlb (T-Bones). Also, the plot is restricted somewhat beyond these dimensions to allow for a wide majority of pitches to be captured. For the specific pitch types, this was restricted to having to be at least 30 pitches of this type thrown for pitchers or faced against for of batters. (This also excludes NA pitch types.) 
+For the HR rate by zone, there are no sample size constraints by zone. Thus, be careful when interpreting these results. The stats that can be displayed here are expected home run rate, home run rate, or home run rate over expected.
+
+
+## Pitch Types
+
+CH = Change-up            
+CU = Curveball    
+EP = Eephus        
+FA = Fastball       
+FC = Cutter        
+FF = Four-Seam Fastball        
+FO = Forkball        
+FS = Splitter        
+KC = Knuckle Curve        
+KN = Knuckleball            
+PO = Pitchout             
+SC = Screwball                
+SI = Sinker           
+SL = Slider               
+UN = Unknown (CS / ST)
+
+
+
+## References
+- [Statcast] (https://baseballsavant.mlb.com/statcast_search)
+- [T-Bones] (https://tbonesbaseball.com/exploring-the-impact-of-height-on-the-strike-zone-an-in-depth-look-into-the-science-behind-baseball/#:~:text=Strike%20zones%20are%20set%20up,3.6%20feet%20off%20the%20ground.)
+- [Top Velocity] (https://www.topvelocity.net/2023/03/17/what-exit-velocity-do-you-need-to-hit-a-homerun/)
+
+
+
+
